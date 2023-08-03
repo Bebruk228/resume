@@ -1,0 +1,433 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&display=swap');
+</style>
+
+
+body{
+	font-family: 'Roboto' sans-serif;
+	font-family: 'Oswald' sans-serif;
+	font-size: 18px;
+
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper{
+	width: 1280px;
+	height: 4820px;
+	border: 2px solid;
+	margin: 0 auto;
+}
+
+.header{
+	width: 100%;
+	height: 120px;
+	border: 2px solid green;
+}
+
+.menu{
+	margin-top: 24px;
+	margin-left: 40px;
+	font-size: 18px;
+	width: 56px;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	padding: 4px 5px;
+	transition: width 2s;
+}
+
+.menu:hover{
+	width: 5px;
+}
+
+.icons{
+	display: flex;
+	justify-content: space-around;
+	padding-left: 1016px;
+	padding-bottom: 60px;
+	margin-top: -30px;
+}
+
+.tiktok{
+	width: 32px;
+	height: 32px;
+}
+
+.discord{
+	width: 32px;
+	height: 32px;
+}
+
+.githab{
+	width: 32px;
+	height: 32px;
+}
+
+.slack{
+	width: 32px;
+	height: 32px;
+}
+
+.biography{
+	background-image: url(images//Image1.jpg);
+	display: flex;
+	justify-content: space-around;
+	padding-left: 40px;
+	padding-top: 120px;
+	background-repeat: no-repeat;
+	width: 1200px;
+	height: 592px;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+.textBio{
+	position: relative;
+	bottom: 100px;
+	left: 250px;
+}
+
+.buttonBio{
+	position: relative;
+	width: 232px;
+	height: 70px;
+	top: 300px;
+	right: 350px;
+	border-radius: 50%;
+	border: 3px solid;
+}
+
+.textbuttonBio{
+	position: relative;
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 24px;
+}
+
+h1{
+	font-size: 40px;
+}
+
+.block{
+	display: flex;
+	margin-top: -150px;
+}
+
+.icons2{
+	display: flex;
+	flex-direction: column;
+	padding-right: 1016px;
+	margin-left: 40px;
+	margin-top: -360px;
+	gap: 32px;
+	
+}
+
+.tiktok2{
+	width: 32px;
+	height: 32px;
+}
+
+.discord2{
+	width: 32px;
+	height: 32px;
+}
+
+.githab2{
+	width: 32px;
+	height: 32px;
+}
+
+.slack2{
+	width: 32px;
+	height: 32px;
+}
+
+.image{
+	padding-top: 136px;
+	padding-left: 134px;
+}
+
+.text{
+	padding-top: 174px;
+	padding-left: 147px;
+	margin-right: 60px;
+	font-size: 18px;
+	font-family: "Oswald" sans-serif;
+}
+
+.hobby1{
+	margin-top: 230px;
+	display: flex;
+}
+
+.text2{
+	margin-top: 70px;
+	margin-left: 40px;
+	font-size: 18px;
+}
+
+.image3{
+	margin-right: 40px;
+}
+
+.hobby2{
+	display: flex;
+}
+
+.image4{
+	padding-top: 100px;
+	padding-left: 40px;
+}
+
+.text3{
+	padding-top: 174px;
+	padding-right: 48px;
+	margin-left: 48px;
+	font-size: 18px;
+}
+
+.imageq{
+	padding-top: 136px;
+}
+
+.BlockF{
+	padding-top: 136px;
+	padding-left: 248px;
+}
+
+.text4{
+	padding-left: 545px;
+}
+
+.text4p{
+	padding-left: 248px;
+	padding-right: 248px;
+	font-size: 18px;
+}
+.BlockFr{
+	padding-top: 136px;
+	padding-left: 248px;
+}
+
+.text5{
+	padding-left: 545px;
+}
+
+.text5p{
+	padding-left: 248px;
+	padding-right: 248px;
+	font-size: 18px;
+}
+
+.skills{
+	margin-top: 136px;
+	display: flex;
+}
+
+.image_skils{
+	position: relative;
+	margin-right: 40px;
+}
+
+.text_skils{
+	margin-left: 144px;
+	margin-right: 50px;
+	font-size: 18px;
+}
+
+.button{
+	position: absolute;
+	width: 173px;
+	height: 60px;
+	margin-top: 200px;
+	margin-left: 293px;
+	border-radius: 50%;
+	border: 3px solid;	
+}
+
+.textbutton{
+	position: relative;
+	top: 20px;
+	left: 40px;
+}
+
+.icons_s{
+	display: flex;
+	justify-content: space-around;
+	margin-left: 40px;
+	margin-top: 380px;
+	position: absolute;
+}
+
+.Ps{
+	background-image: url(images//icons//Photoshop.jpg);
+	width: 72px;
+	height: 72px;
+	margin-right: 72px;
+}
+
+.Figma{
+	background-image: url(images//icons//Figma.jpg);
+	width: 72px;
+	height: 72px;
+	margin-right: 72px;
+}
+
+.St{
+	background-image: url(images//icons//SublimeText.jpg);
+	width: 72px;
+	height: 72px;
+	margin-right: 72px;
+}
+
+.Java{
+	background-image: url(images//icons//java.jpg);
+	width: 72px;
+	height: 72px;
+	margin-right: 72px;
+}
+
+.cpp{
+	background-image: url(images//icons//c++.jpg);
+	width: 72px;
+	height: 72px;
+	margin-right: 72px;
+}
+
+.slider-container {
+    width: 784px;
+    height: 602px;
+    margin-left: 248px;
+    margin-top: 136px;
+    border: 1px solid gray;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    width: 300%;
+    height: 100%;
+    display: flex;
+    transition: margin-left 1s;
+}
+
+.slide {
+    width: 33.33%;
+    height: 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.slider-buttons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slider-button {
+    width: 15px;
+    height: 15px;
+    background-color: gray;
+    opacity: 0.5;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Hide radio buttons */
+input[type="radio"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+/* Show corresponding slide when radio button is checked */
+#slide1:checked ~ .slider {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .slider {
+    margin-left: -100%;
+}
+
+#slide3:checked ~ .slider {
+    margin-left: -200%;
+}
+
+/* Style active button */
+#slide1:checked ~ .slider-buttons label[for="slide1"],
+#slide2:checked ~ .slider-buttons label[for="slide2"],
+#slide3:checked ~ .slider-buttons label[for="slide3"] {
+    background-color: gray;
+    opacity: 1;
+}
+
+.footer {
+    font-size: 24px;
+    display: grid;
+    align-items: center;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 136px;
+}
+
+.block2 {
+    position: relative;
+    top: 150px;
+    right: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    /*margin: 0;*/
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.icons3{
+	display: flex;
+	flex-direction: column;
+	margin-left: 1208px;
+	gap: 32px;
+	
+}
+
+.tiktok3{
+	width: 32px;
+	height: 32px;
+}
+
+.discord3{
+	width: 32px;
+	height: 32px;
+}
+
+.githab3{
+	width: 32px;
+	height: 32px;
+}
+
+.slack3{
+	width: 32px;
+	height: 32px;
+}
